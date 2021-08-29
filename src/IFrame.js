@@ -5,7 +5,7 @@ const IFrame = ({ url }) => {
   console.log("hi");
   return (
     <div style={style}>
-      <iframe src={url} height="100%" width="100%" />
+      <iframe is="x-frame-bypass" src={url} height="100%" width="100%" />
     </div>
   );
 };
